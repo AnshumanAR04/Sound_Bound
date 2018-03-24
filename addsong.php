@@ -26,7 +26,7 @@
 			$artist = $_POST['artist'];
 
 
-			$sql = "INSERT into list VALUES ('', '$title', '$path','$genre','$artist')";
+			$sql = "INSERT INTO `list` (`id`, `title`, `path`, `genre`, `Artist`) VALUES (NULL, '$title', '$path', '$genre', '$artist');";
 
 			if($conn->query($sql) == TRUE) {
 				echo "Uploaded Successfully";
