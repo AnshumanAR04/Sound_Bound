@@ -10,7 +10,10 @@ td:hover
 	color: black;
 }
 
-
+img.logo
+{
+	border:1px;border-radius:100%;width:75px;height:75px;margin-top:0px; opacity:.7;
+}
 
 
 
@@ -1429,6 +1432,13 @@ border-radius:7px 7px 7px 7px ;
 		}
 
 		@media screen and (max-width: 480px) {
+			img.logo{
+				width: 40px;
+				height: 40px;border:1px;
+				border-radius:100%;
+				margin-top:0px;
+				 opacity:.7;
+			}
 
 			#header {
 				padding: 1.5rem 0;
@@ -1568,7 +1578,13 @@ border-radius:7px 7px 7px 7px ;
 				}
 
 		@media screen and (max-width: 736px) {
-
+			img.logo{
+				width: 40px;
+				height: 40px;border:1px;
+				border-radius:100%;
+				margin-top:0px;
+				 opacity:.7;
+			}
 			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 			}
